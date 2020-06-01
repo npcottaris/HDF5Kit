@@ -1370,6 +1370,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		376502F72484B56A008ED26D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6185A9F21BD33B7200CD5FC5 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
@@ -1388,6 +1395,7 @@
 				61B314AB1BBDBA3200F63C45 /* Tests */,
 				6185A9F21BD33B7200CD5FC5 /* Dependencies */,
 				61B3149E1BBDBA3100F63C45 /* Products */,
+				376502F72484B56A008ED26D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3147,7 +3155,6 @@
 		61B314B21BBDBA3200F63C45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -3169,7 +3176,6 @@
 		61B314B31BBDBA3200F63C45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
